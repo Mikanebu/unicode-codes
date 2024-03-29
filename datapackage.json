@@ -1,0 +1,92 @@
+{
+    "profile": "tabular-data-package",
+    "name": "unicode-codes",
+    "title": "Unicoide codes",
+    "resources": [
+        {
+            "path": "data/output.csv",
+            "profile": "tabular-data-resource",
+            "name": "output",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Unicode",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Schematic Name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "General_Category property value",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "field4",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "CJK Radical",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "Code Point Sequence for USI",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "3",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "4",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "ast_Asian_Width property",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "The formal name aliases",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "5",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "6",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mapping",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
